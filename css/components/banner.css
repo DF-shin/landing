@@ -1,0 +1,30 @@
+.banner{
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px;
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+}
+
+.banner p{
+  font-size: large;
+  opacity: 90%;
+  margin-bottom: 35px;
+}
+
+.btn-green{
+  color: white;
+  background-color: rgb(7, 209, 81);
+  padding: 13px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-green:hover{
+  background-color: rgba(4, 171, 65, 0.799);
+  transition: background-color 0.4s ease-in-out;
+}
